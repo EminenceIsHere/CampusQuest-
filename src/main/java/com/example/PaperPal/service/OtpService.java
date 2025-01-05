@@ -1,8 +1,8 @@
-package com.example.PaperPal.service;
+package com.example.CampusQuest.service;
 
-import com.example.PaperPal.entity.OtpDetails;
-import com.example.PaperPal.entity.Users;
-import com.example.PaperPal.repository.UserRepository;
+import com.example.CampusQuest.entity.OtpDetails;
+import com.example.CampusQuest.entity.Users;
+import com.example.CampusQuest.repository.UserRepository;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.extern.slf4j.Slf4j;
@@ -66,7 +66,7 @@ public class OtpService {
                 "Your OTP is: <b>" + otp + "</b><br><br>" +
                 "This OTP is valid for 2 minutes.<br><br>" +
                 "Thank you,<br>" +
-                "The PaperPal Team" +
+                "The CampusQuest Team" +
                 "</body></html>";
 
         helper.setTo(email);

@@ -1,7 +1,7 @@
-package com.example.PaperPal.service;
+package com.example.CampusQuest.service;
 
-import com.example.PaperPal.entity.ExamFile;
-import com.example.PaperPal.repository.ExamFileRepository;
+import com.example.CampusQuest.entity.ExamFile;
+import com.example.CampusQuest.repository.ExamFileRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Value;

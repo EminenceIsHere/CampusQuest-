@@ -1,4 +1,4 @@
-package com.example.PaperPal.entity;
+package com.example.CampusQuest.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

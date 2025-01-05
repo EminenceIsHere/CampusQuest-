@@ -1,9 +1,9 @@
-package com.example.PaperPal.controller;
+package com.example.CampusQuest.controller;
 
-import com.example.PaperPal.entity.UserDto;
-import com.example.PaperPal.entity.Users;
-import com.example.PaperPal.service.DoubtsService;
-import com.example.PaperPal.service.UserService;
+import com.example.CampusQuest.entity.UserDto;
+import com.example.CampusQuest.entity.Users;
+import com.example.CampusQuest.service.DoubtsService;
+import com.example.CampusQuest.service.UserService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

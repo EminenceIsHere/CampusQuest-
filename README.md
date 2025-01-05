@@ -1,6 +1,6 @@
 # PaperPal Application 🎓📁
 
-Welcome to the **PaperPal** application! This project is designed to manage and interact with exam files, handle user responses, and assist with posting and resolving doubts. The application also integrates an AI assistant for answering general questions. It provides functionalities for uploading, downloading, and managing exam-related files, posting and replying to doubts, and interacting with an AI assistant.
+Welcome to the **CampusQuest** application! This project is designed to manage and interact with exam files, handle user responses, and assist with posting and resolving doubts. The application also integrates an AI assistant for answering general questions. It provides functionalities for uploading, downloading, and managing exam-related files, posting and replying to doubts, and interacting with an AI assistant.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Welcome to the **PaperPal** application! This project is designed to manage and 
 
 ## Project Overview 🏠
 
-The **PaperPal** application is built using **Spring Boot** and provides a web interface for users to upload, manage, and download exam files. It supports managing user responses and linking those responses to exam files. Additionally, users can interact with an AI assistant powered by **Ollama Mistral** via the home page. The application also allows users to post and resolve doubts related to exams, fostering better learning and communication.
+The **CampusQuest** application is built using **Spring Boot** and provides a web interface for users to upload, manage, and download exam files. It supports managing user responses and linking those responses to exam files. Additionally, users can interact with an AI assistant powered by **Ollama Mistral** via the home page. The application also allows users to post and resolve doubts related to exams, fostering better learning and communication.
 
 ## Features 🌟
 
@@ -164,7 +164,7 @@ To run the application locally, follow these steps:
 2. Navigate to the project directory:
 
     ```sh
-    cd PaperPal
+    cd CampusQuest
     ```
 
 3. Build and run the application using Maven or Gradle:
@@ -195,4 +195,4 @@ For any issues or feature requests, please create an issue in the GitHub reposit
 
 ---
 
-Thank you for using **PaperPal**! If you have any questions, feel free to reach out or open an issue on GitHub. 😊
+Thank you for using **CampusQuest**! If you have any questions, feel free to reach out or open an issue on GitHub. 😊

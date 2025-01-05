@@ -1,4 +1,4 @@
-# PaperPal Application 🎓📁
+# CampusQuest Application 🎓📁
 
 Welcome to the **CampusQuest** application! This project is designed to manage and interact with exam files, handle user responses, and assist with posting and resolving doubts. The application also integrates an AI assistant for answering general questions. It provides functionalities for uploading, downloading, and managing exam-related files, posting and replying to doubts, and interacting with an AI assistant.
 

@@ -1,4 +1,4 @@
-package com.example.PaperPal;
+package com.example.CampusQuest;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;

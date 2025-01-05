@@ -6,13 +6,6 @@ Welcome to the **CampusQuest** application! This project is designed to manage a
 
 - [Project Overview](#project-overview-)
 - [Features](#features-)
-- [Controllers](#controllers-)
-    - [UserController](#usercontroller-)
-    - [UserResponseController](#userresponsecontroller-)
-    - [ExamFileController](#examfilecontroller-)
-    - [DoubtsController](#doubtscontroller-)
-    - [AIController](#aicontroller-)
-    - [Healthcheck](#healthcheck-)
 - [Running the Application](#running-the-application-)
 - [Contributing](#contributing-)
 

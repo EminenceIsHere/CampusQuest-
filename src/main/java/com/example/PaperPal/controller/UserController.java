@@ -1,13 +1,13 @@
-package com.example.PaperPal.controller;
+package com.example.CampusQuest.controller;
 
-import com.example.PaperPal.entity.Doubts;
-import com.example.PaperPal.entity.OtpDetails;
-import com.example.PaperPal.entity.UserDto;
-import com.example.PaperPal.entity.Users;
-import com.example.PaperPal.repository.DoubtsRepository;
-import com.example.PaperPal.repository.UserRepository;
-import com.example.PaperPal.service.OtpService;
-import com.example.PaperPal.service.UserService;
+import com.example.CampusQuest.entity.Doubts;
+import com.example.CampusQuest.entity.OtpDetails;
+import com.example.CampusQuest.entity.UserDto;
+import com.example.CampusQuest.entity.Users;
+import com.example.CampusQuest.repository.DoubtsRepository;
+import com.example.CampusQuest.repository.UserRepository;
+import com.example.CampusQuest.service.OtpService;
+import com.example.CampusQuest.service.UserService;
 import io.swagger.v3.oas.annotations.servers.Server;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
@@ -124,7 +124,7 @@ public class UserController {
                            "\n" +
                            "<div class=\"container\">\n" +
                            "    <div class=\"header\">\n" +
-                           "        <h1>Welcome to PaperPal!</h1>\n" +
+                           "        <h1>Welcome to CampusQuest!</h1>\n" +
                            "    </div>\n" +
                            "    <div class=\"content\">\n" +
                            "        <p>Hello " + user.getFirstName() + " " + user.getLastName() + ",</p>\n" +
@@ -133,10 +133,10 @@ public class UserController {
                            "            <a href=\""+request+"\" class=\"button\">Confirm Your Email</a>\n" +
                            "        </div>\n" +
                            "        <p>If you didn't create an account with us, please ignore this email.</p>\n" +
-                           "        <p>Thank you!<br>PaperPal Team</p>\n" +
+                           "        <p>Thank you!<br>CampusQuest Team</p>\n" +
                            "    </div>\n" +
                            "    <div class=\"footer\">\n" +
-                           "        <p>&copy; 2024 PaperPal. All rights reserved.</p>\n" +
+                           "        <p>&copy; 2024 CampusQuest. All rights reserved.</p>\n" +
                            "    </div>\n" +
                            "</div>\n" +
                            "\n" +

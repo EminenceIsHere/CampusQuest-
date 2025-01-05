@@ -27,15 +27,6 @@ The **CampusQuest** application is built using **Spring Boot** and provides a we
 
 
 
-
-
-### Healthcheck 🔍
-
-The `Healthcheck` endpoint is used to monitor the health status of the application.
-
-- **GET /health**: Returns the health status of the application.
-    - **Response**: HTTP Status Code `200 OK` if the application is healthy.
-
 ## Running the Application 🚀
 
 To run the application locally, follow these steps:

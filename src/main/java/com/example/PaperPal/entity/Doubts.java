@@ -1,6 +1,6 @@
-package com.example.PaperPal.entity;
+package com.example.CampusQuest.entity;
 
-import com.example.PaperPal.service.DoubtsService;
+import com.example.CampusQuest.service.DoubtsService;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

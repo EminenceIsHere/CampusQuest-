@@ -1,8 +1,8 @@
-package com.example.PaperPal.service;
+package com.example.CampusQuest.service;
 
-import com.example.PaperPal.entity.ExamFile;
-import com.example.PaperPal.entity.UserResponse;
-import com.example.PaperPal.repository.UserResponseRepository;
+import com.example.CampusQuest.entity.ExamFile;
+import com.example.CampusQuest.entity.UserResponse;
+import com.example.CampusQuest.repository.UserResponseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

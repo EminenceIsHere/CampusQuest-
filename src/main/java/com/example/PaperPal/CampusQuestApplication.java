@@ -1,4 +1,4 @@
-package com.example.PaperPal;
+package com.example.CampusQuest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

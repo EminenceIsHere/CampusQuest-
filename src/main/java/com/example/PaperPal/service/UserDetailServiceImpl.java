@@ -1,7 +1,7 @@
-package com.example.PaperPal.service;
+package com.example.CampusQuest.service;
 
-import com.example.PaperPal.entity.Users;
-import com.example.PaperPal.repository.UserRepository;
+import com.example.CampusQuest.entity.Users;
+import com.example.CampusQuest.repository.UserRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

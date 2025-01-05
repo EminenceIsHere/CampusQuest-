@@ -1,7 +1,7 @@
-package com.example.PaperPal.controller;
+package com.example.CampusQuest.controller;
 
-import com.example.PaperPal.entity.Doubts;
-import com.example.PaperPal.service.DoubtsService;
+import com.example.CampusQuest.entity.Doubts;
+import com.example.CampusQuest.service.DoubtsService;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.bson.types.ObjectId;

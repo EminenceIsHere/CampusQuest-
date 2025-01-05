@@ -1,6 +1,6 @@
-package com.example.PaperPal.repository;
+package com.example.CampusQuest.repository;
 
-import com.example.PaperPal.entity.Doubts;
+import com.example.CampusQuest.entity.Doubts;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

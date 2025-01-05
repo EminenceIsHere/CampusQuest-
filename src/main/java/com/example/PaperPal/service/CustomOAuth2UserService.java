@@ -1,7 +1,7 @@
-package com.example.PaperPal.service;
-import com.example.PaperPal.entity.Users;
-import com.example.PaperPal.repository.UserRepository;
-import com.example.PaperPal.security.CustomOAuth2User;
+package com.example.CampusQuest.service;
+import com.example.CampusQuest.entity.Users;
+import com.example.CampusQuest.repository.UserRepository;
+import com.example.CampusQuest.security.CustomOAuth2User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;

@@ -1,6 +1,6 @@
-package com.example.PaperPal.security;
+package com.example.CampusQuest.security;
 
-import com.example.PaperPal.service.CustomOAuth2UserService;
+import com.example.CampusQuest.service.CustomOAuth2UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

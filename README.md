@@ -50,7 +50,7 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/Medhansh-32/PaperPal.git
+    git clone https://github.com/EminenceIsHere/PaperPal.git
     ```
 
 2. Navigate to the project directory:
@@ -70,12 +70,6 @@ To run the application locally, follow these steps:
     ```sh
     ./gradlew bootRun
     ```
-### Home Page
-Dark Theme
-<img src="src/main/resources/static/images/home.png">
-
-Light Theme
-<img src="src/main/resources/static/images/Light-Theme(Home).png">
 4. Access the application(Homepage) at `http://localhost:8080`.
 
 

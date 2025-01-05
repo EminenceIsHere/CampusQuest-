@@ -1,8 +1,8 @@
-package com.example.PaperPal.service;
+package com.example.CampusQuest.service;
 
 import ch.qos.logback.core.encoder.EchoEncoder;
-import com.example.PaperPal.entity.Users;
-import com.example.PaperPal.repository.UserRepository;
+import com.example.CampusQuest.entity.Users;
+import com.example.CampusQuest.repository.UserRepository;
 import jakarta.mail.internet.MimeMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -31,7 +31,7 @@ public class UserService {
             MimeMessage mimeMessage = mailSender.createMimeMessage();
             MimeMessageHelper mimeMessageHelper=new MimeMessageHelper(mimeMessage,true);
 
-            mimeMessageHelper.setFrom("PaperPal");
+            mimeMessageHelper.setFrom("CampusQuest");
             mimeMessageHelper.setTo(user.getEmail());
             mimeMessageHelper.setSubject("Successfully Registered to Paper Pal");
             String emailText="<!DOCTYPE html>\n" +
@@ -39,7 +39,7 @@ public class UserService {
                     "<head>\n" +
                     "    <meta charset=\"UTF-8\">\n" +
                     "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
-                    "    <title>Welcome to PaperPal!</title>\n" +
+                    "    <title>Welcome to CampusQuest!</title>\n" +
                     "    <style>\n" +
                     "        body {\n" +
                     "            font-family: Arial, sans-serif;\n" +" color:white;\n" +
@@ -78,7 +78,7 @@ public class UserService {
                     "<body>\n" +
                     "    <div class=\"container\">\n" +
                     "        <div class=\"header\">\n" +
-                    "            <h1>Welcome to PaperPal!</h1>\n" +
+                    "            <h1>Welcome to CampusQuest!</h1>\n" +
                     "        </div>\n" +
                     "        <div class=\"content\">\n" +
                     "            <h2>Hello, "+user.getUserName()+"</h2>\n" +
@@ -86,7 +86,7 @@ public class UserService {
                     "        </div>\n" +
                     "        <div class=\"footer\">\n" +
                     "            <p>Regards,</p>\n" +
-                    "            <p>The PaperPal Team</p>\n" +
+                    "            <p>The CampusQuest Team</p>\n" +
                     "        </div>\n" +
                     "    </div>\n" +
                     "</body>\n" +

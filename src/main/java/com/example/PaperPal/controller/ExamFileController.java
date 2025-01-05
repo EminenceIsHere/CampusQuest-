@@ -1,8 +1,8 @@
-package com.example.PaperPal.controller;
+package com.example.CampusQuest.controller;
 
-import com.example.PaperPal.entity.ExamFile;
-import com.example.PaperPal.repository.UserResponseRepository;
-import com.example.PaperPal.service.ExamFileService;
+import com.example.CampusQuest.entity.ExamFile;
+import com.example.CampusQuest.repository.UserResponseRepository;
+import com.example.CampusQuest.service.ExamFileService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;

@@ -1,8 +1,8 @@
-package com.example.PaperPal.controller;
+package com.example.CampusQuest.controller;
 
-import com.example.PaperPal.entity.ExamFile;
-import com.example.PaperPal.entity.UserResponse;
-import com.example.PaperPal.service.UserResponseService;
+import com.example.CampusQuest.entity.ExamFile;
+import com.example.CampusQuest.entity.UserResponse;
+import com.example.CampusQuest.service.UserResponseService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;

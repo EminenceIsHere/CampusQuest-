@@ -1,4 +1,4 @@
-package com.example.PaperPal;
+package com.example.CampusQuest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

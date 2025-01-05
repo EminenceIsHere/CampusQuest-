@@ -1,9 +1,9 @@
-package com.example.PaperPal.service;
+package com.example.CampusQuest.service;
 
-import com.example.PaperPal.controller.DoubtsController;
-import com.example.PaperPal.entity.Doubts;
+import com.example.CampusQuest.controller.DoubtsController;
+import com.example.CampusQuest.entity.Doubts;
 
-import com.example.PaperPal.repository.DoubtsRepository;
+import com.example.CampusQuest.repository.DoubtsRepository;
 import java.util.Collections;
 
 import lombok.AllArgsConstructor;
